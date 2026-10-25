@@ -1,0 +1,20 @@
+[
+  {
+    "id": "s1_rag_simple",
+    "title": "Scénario 1 — RAG simple",
+    "expectation": "Une recherche (zone motivations) suffit ; l'agent doit soumettre sans lecture inutile.",
+    "question": "Le juge peut-il écarter le barème d'indemnisation du licenciement sans cause réelle et sérieuse (article L. 1235-3 du code du travail) en se fondant sur la Charte sociale européenne ou sur la convention n° 158 de l'OIT ?"
+  },
+  {
+    "id": "s2_multi_etapes",
+    "title": "Scénario 2 — Recherche multi-étapes",
+    "expectation": "Trouver l'affaire (passage d'exposé), puis read_case pour la solution et le raisonnement de la Cour.",
+    "question": "Un conseiller d'une mission locale a été licencié pour faute grave après avoir publié des messages sur Facebook. Quelle a été la décision de la Cour de cassation dans cette affaire et sur quel raisonnement repose-t-elle ?"
+  },
+  {
+    "id": "s3_info_insuffisante",
+    "title": "Scénario 3 — Information insuffisante",
+    "expectation": "Le premier retrieval est hors sujet ; l'agent doit reformuler puis déclarer la lacune au lieu d'inventer.",
+    "question": "Un employeur peut-il licencier un salarié pour avoir utilisé un outil d'intelligence artificielle générative comme ChatGPT sans autorisation ?"
+  }
+]

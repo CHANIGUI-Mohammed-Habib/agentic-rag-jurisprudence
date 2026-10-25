@@ -1,0 +1,197 @@
+{
+ "type": "RESULT",
+ "question": "Un conseiller d'une mission locale a été licencié pour faute grave après avoir publié des messages sur Facebook. Quelle a été la décision de la Cour de cassation dans cette affaire et sur quel raisonnement repose-t-elle ?",
+ "system": "baseline",
+ "final": {
+  "status": "unverified",
+  "stop_reason": "réponse unique",
+  "brief": {
+   "main_finding": "Les passages indiquent que la décision du 19 octobre 2022 (pourvoi 21-12.370) est une cassation, et exposent les griefs de l'employeur contre l'arrêt d'appel. Le corpus ne contient toutefois pas les motifs de la Cour de cassation elle-même, de sorte que son raisonnement ne peut être établi.",
+   "answer_status": "partial",
+   "claims": [
+    {
+     "statement": "Le conseiller de la mission locale a été licencié pour faute grave en raison de publications sur un compte Facebook accessible au public, comportant critiques politiques et appels à diffuser le Coran.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p001",
+       "quote": "la mission locale a licencié le salarié pour faute grave, en lui reprochant d'avoir publié sur son compte Facebook, accessible au public"
+      }
+     ]
+    },
+    {
+     "statement": "L'employeur invoquait une atteinte à l'obligation de neutralité, englobant devoir de réserve et respect de la laïcité, ainsi qu'un abus de la liberté d'expression.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p001",
+       "quote": "laquelle « englobe un devoir de réserve ainsi qu'une obligation de respect de la laïcité »"
+      }
+     ]
+    },
+    {
+     "statement": "Le pourvoi (argument du demandeur, non position de la Cour) reprochait à la cour d'appel d'avoir jugé que l'employeur ne pouvait interdire le prosélytisme religieux hors travail et que le devoir de réserve ne couvrait pas l'expression de la foi, en violation du principe de laïcité du service public.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p004",
+       "quote": "la cour d'appel a violé le principe de laïcité du service public"
+      }
+     ]
+    }
+   ],
+   "qualifications": [
+    "La solution « Cassation » figure dans les métadonnées des passages, mais aucun passage de motivation de la Cour n'est fourni.",
+    "Le passage de zone « moyens » (p004) est l'argumentation de l'employeur demandeur au pourvoi, non le raisonnement de la Cour.",
+    "Les passages des affaires 19-12.058 et 19-21.138 concernent d'autres litiges et ne répondent pas à la question."
+   ],
+   "evidence_gaps": [
+    "Les motifs de la Cour de cassation (zone motivation) dans l'arrêt 21-12.370 ne sont pas fournis.",
+    "Le dispositif précis (portée de la cassation, renvoi) n'est pas établi par les passages.",
+    "La position de la Cour sur la laïcité, le devoir de réserve et la liberté d'expression du salarié reste inconnue."
+   ]
+  },
+  "citations": [
+   {
+    "claim_index": 0,
+    "passage_id": "634f93f8b5afe5adfff28804-p001",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "expose",
+    "quote": "la mission locale a licencié le salarié pour faute grave, en lui reprochant d'avoir publié sur son compte Facebook, accessible au public",
+    "start": 2850,
+    "end": 2986,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "634f93f8b5afe5adfff28804-p001",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "expose",
+    "quote": "laquelle « englobe un devoir de réserve ainsi qu'une obligation de respect de la laïcité",
+    "start": 3613,
+    "end": 3701,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 2,
+    "passage_id": "634f93f8b5afe5adfff28804-p004",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "moyens",
+    "quote": "la cour d'appel a violé le principe de laïcité du service public",
+    "start": 6286,
+    "end": 6350,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   }
+  ],
+  "verification": {
+   "mechanical": {
+    "ok": true,
+    "issues": [],
+    "resolved": [
+     {
+      "claim_index": 0,
+      "passage_id": "634f93f8b5afe5adfff28804-p001",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "expose",
+      "quote": "la mission locale a licencié le salarié pour faute grave, en lui reprochant d'avoir publié sur son compte Facebook, accessible au public",
+      "start": 2850,
+      "end": 2986,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "634f93f8b5afe5adfff28804-p001",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "expose",
+      "quote": "laquelle « englobe un devoir de réserve ainsi qu'une obligation de respect de la laïcité",
+      "start": 3613,
+      "end": 3701,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 2,
+      "passage_id": "634f93f8b5afe5adfff28804-p004",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "moyens",
+      "quote": "la cour d'appel a violé le principe de laïcité du service public",
+      "start": 6286,
+      "end": 6350,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     }
+    ]
+   }
+  }
+ },
+ "trace": [
+  {
+   "step": 1,
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"Un conseiller d'une mission locale a été licencié pour faute grave après avoir publié des messages sur Facebook. Quelle a été la décision de la Cour de cassation dans cette affaire et sur quel raisonnement repose-t-elle ?\", \"k\": 5, \"zone\": \"any\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "Un conseiller d'une mission locale a été licencié pour faute grave après avoir publié des messages sur Facebook. Quelle a été la décision de la Cour de cassation dans cette affaire et sur quel raisonnement repose-t-elle ?",
+     "k": 5,
+     "zone": "any"
+    }
+   },
+   "elapsed_s": 0.0
+  },
+  {
+   "step": 2,
+   "type": "OBSERVATION",
+   "label": "5 passages dans 3 décisions (19-12.058, 19-21.138, 21-12.370) ; zones : 2 expose, 3 moyens. Meilleur score 28.59.",
+   "detail": {},
+   "elapsed_s": 0.01
+  },
+  {
+   "step": 3,
+   "type": "CHECK",
+   "label": "Contrôle (non bouclé) : 3 citations vérifiées mot pour mot, 0 défaut(s).",
+   "detail": {
+    "issues": []
+   },
+   "elapsed_s": 6.74
+  },
+  {
+   "step": 4,
+   "type": "FINAL",
+   "label": "Réponse (partial) — 3 citations.",
+   "detail": {},
+   "elapsed_s": 6.74
+  }
+ ],
+ "metrics": {
+  "llm_calls": 1,
+  "input_tokens": 4664,
+  "output_tokens": 929,
+  "llm_latency_s": 6.73,
+  "cost_usd": 0.0186,
+  "calls_by_role": {
+   "baseline": 1
+  },
+  "tool_calls": 1,
+  "tools_used": [
+   "search_cases"
+  ],
+  "drafts": 1,
+  "cases_read": [],
+  "latency_s": 6.74,
+  "model": "claude-sonnet-5-5"
+ }
+}

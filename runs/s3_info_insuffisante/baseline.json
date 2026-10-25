@@ -1,0 +1,192 @@
+{
+ "type": "RESULT",
+ "question": "Un employeur peut-il licencier un salarié pour avoir utilisé un outil d'intelligence artificielle générative comme ChatGPT sans autorisation ?",
+ "system": "baseline",
+ "final": {
+  "status": "unverified",
+  "stop_reason": "réponse unique",
+  "brief": {
+   "main_finding": "Les passages fournis ne traitent pas de l'usage d'un outil d'IA générative comme ChatGPT et ne permettent donc pas de répondre directement à la question. Ils portent seulement sur des principes voisins (utilisation d'outils informatiques professionnels, vie personnelle, règlement intérieur), sans en tirer de règle sur l'IA.",
+   "answer_status": "insufficient_evidence",
+   "claims": [
+    {
+     "statement": "Un motif tiré de la vie personnelle du salarié ne justifie en principe pas un licenciement disciplinaire, sauf manquement à une obligation découlant du contrat de travail.",
+     "citations": [
+      {
+       "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+       "quote": "un motif tiré de la vie personnelle du salarié ne peut justifier, en principe, un licenciement disciplinaire"
+      }
+     ]
+    },
+    {
+     "statement": "Dans une affaire distincte, la Cour relève qu'un règlement intérieur interdisait d'utiliser sans autorisation préalable les équipements de l'employeur, y compris informatiques, pour un usage propre, mais a jugé que l'usage limité de la messagerie professionnelle pour des messages privés n'était pas excessif et que l'employeur ne pouvait se fonder sur leur contenu.",
+     "citations": [
+      {
+       "passage_id": "65e81550a743ca0008c68c1d-p006",
+       "quote": "l'article 26 du règlement intérieur interdisait aux salariés d'utiliser pour leur propre compte et sans autorisation préalable les équipements appartenant à la caisse"
+      },
+      {
+       "passage_id": "65e81550a743ca0008c68c1d-p006",
+       "quote": "l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux"
+      }
+     ]
+    }
+   ],
+   "qualifications": [
+    "Ces solutions concernent des messages personnels et la vie privée, non l'usage d'une IA générative à des fins professionnelles.",
+    "Le passage de la décision 20-21.848 est un moyen du demandeur au pourvoi, non la position de la Cour, et n'est pas utilisé comme fondement.",
+    "Le passage 23-20.168 concerne le travail temporaire et n'est pas pertinent."
+   ],
+   "evidence_gaps": [
+    "Aucun passage ne mentionne ChatGPT ou l'intelligence artificielle générative.",
+    "Le corpus ne permet pas d'établir si l'usage non autorisé d'un tel outil constitue une faute, ni sa gravité (cause réelle et sérieuse, faute grave).",
+    "Le corpus ne précise pas le rôle d'une charte informatique ou d'une interdiction expresse pour l'IA."
+   ]
+  },
+  "citations": [
+   {
+    "claim_index": 0,
+    "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+    "case_id": "66f3a7dc5c2cfc5a084ac60f",
+    "number": "23-11.860",
+    "date": "2024-09-25",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "un motif tiré de la vie personnelle du salarié ne peut justifier, en principe, un licenciement disciplinaire",
+    "start": 14290,
+    "end": 14398,
+    "url": "https://www.courdecassation.fr/decision/66f3a7dc5c2cfc5a084ac60f"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "65e81550a743ca0008c68c1d-p006",
+    "case_id": "65e81550a743ca0008c68c1d",
+    "number": "22-11.016",
+    "date": "2024-03-06",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "l'article 26 du règlement intérieur interdisait aux salariés d'utiliser pour leur propre compte et sans autorisation préalable les équipements appartenant à la caisse",
+    "start": 7436,
+    "end": 7602,
+    "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "65e81550a743ca0008c68c1d-p006",
+    "case_id": "65e81550a743ca0008c68c1d",
+    "number": "22-11.016",
+    "date": "2024-03-06",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux",
+    "start": 7966,
+    "end": 8083,
+    "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+   }
+  ],
+  "verification": {
+   "mechanical": {
+    "ok": true,
+    "issues": [],
+    "resolved": [
+     {
+      "claim_index": 0,
+      "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+      "case_id": "66f3a7dc5c2cfc5a084ac60f",
+      "number": "23-11.860",
+      "date": "2024-09-25",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "un motif tiré de la vie personnelle du salarié ne peut justifier, en principe, un licenciement disciplinaire",
+      "start": 14290,
+      "end": 14398,
+      "url": "https://www.courdecassation.fr/decision/66f3a7dc5c2cfc5a084ac60f"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "65e81550a743ca0008c68c1d-p006",
+      "case_id": "65e81550a743ca0008c68c1d",
+      "number": "22-11.016",
+      "date": "2024-03-06",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "l'article 26 du règlement intérieur interdisait aux salariés d'utiliser pour leur propre compte et sans autorisation préalable les équipements appartenant à la caisse",
+      "start": 7436,
+      "end": 7602,
+      "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "65e81550a743ca0008c68c1d-p006",
+      "case_id": "65e81550a743ca0008c68c1d",
+      "number": "22-11.016",
+      "date": "2024-03-06",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux",
+      "start": 7966,
+      "end": 8083,
+      "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+     }
+    ]
+   }
+  }
+ },
+ "trace": [
+  {
+   "step": 1,
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"Un employeur peut-il licencier un salarié pour avoir utilisé un outil d'intelligence artificielle générative comme ChatGPT sans autorisation ?\", \"k\": 5, \"zone\": \"any\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "Un employeur peut-il licencier un salarié pour avoir utilisé un outil d'intelligence artificielle générative comme ChatGPT sans autorisation ?",
+     "k": 5,
+     "zone": "any"
+    }
+   },
+   "elapsed_s": 0.0
+  },
+  {
+   "step": 2,
+   "type": "OBSERVATION",
+   "label": "5 passages dans 4 décisions (20-21.848, 22-11.016, 23-11.860, 23-20.168) ; zones : 4 motivations, 1 moyens. Meilleur score 15.36.",
+   "detail": {},
+   "elapsed_s": 0.0
+  },
+  {
+   "step": 3,
+   "type": "CHECK",
+   "label": "Contrôle (non bouclé) : 3 citations vérifiées mot pour mot, 0 défaut(s).",
+   "detail": {
+    "issues": []
+   },
+   "elapsed_s": 6.49
+  },
+  {
+   "step": 4,
+   "type": "FINAL",
+   "label": "Réponse (insufficient_evidence) — 3 citations.",
+   "detail": {},
+   "elapsed_s": 6.49
+  }
+ ],
+ "metrics": {
+  "llm_calls": 1,
+  "input_tokens": 4842,
+  "output_tokens": 927,
+  "llm_latency_s": 6.48,
+  "cost_usd": 0.019,
+  "calls_by_role": {
+   "baseline": 1
+  },
+  "tool_calls": 1,
+  "tools_used": [
+   "search_cases"
+  ],
+  "drafts": 1,
+  "cases_read": [],
+  "latency_s": 6.49,
+  "model": "claude-sonnet-5-5"
+ }
+}

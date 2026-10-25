@@ -1,0 +1,43 @@
+{
+  "built_at": "2026-10-25T16:58:24+00:00",
+  "dataset": "antoinejeannot/jurisprudence",
+  "revision": "8019db1080cf6dc8a34d73ee44d704a8e90b558e",
+  "file": "cour_de_cassation.parquet",
+  "file_sha256": "46d2d128b7658fdcfa67999e5026d35397a459ac6b488ee8abf3d8601c8bded4",
+  "selection_rule": {
+    "jurisdiction": "Cour de cassation",
+    "chamber": "Chambre sociale",
+    "decision_date_min": "2020-01-01",
+    "publication_contains": "Publié au Bulletin",
+    "requires_zone": "motivations",
+    "topic": "'licenci' appears in the official themes, the headnote (summary) or the court's reasoning (motivations zone)"
+  },
+  "funnel": {
+    "chamber_and_date": 13974,
+    "published_bulletin": 1167,
+    "has_motivations_zone": 1139,
+    "dismissal_topic": 436
+  },
+  "cases": 436,
+  "passages": 4399,
+  "passages_per_zone": {
+    "expose": 525,
+    "moyens": 1640,
+    "motivations": 1750,
+    "dispositif": 484
+  },
+  "indexed_zones": [
+    "expose",
+    "moyens",
+    "motivations",
+    "dispositif"
+  ],
+  "omissions": [
+    "zone 'introduction' (court header, parties, counsel) is kept in the case store but not indexed",
+    "zone 'annexes' (lawyers' full pleadings appended to the decision) is kept in the store but not indexed: it is party argument, not the court's reasoning, and is often longer than the decision",
+    "'summary' (official headnote) is stored as metadata only; it is editorial, so it is never cited",
+    "unpublished decisions (Non publié) and decisions without a 'motivations' zone are excluded"
+  ],
+  "passage_chunking": "paragraphs merged up to 1500 chars, never across zones; paragraphs over 2000 chars split at sentence/clause boundaries",
+  "index": "Okapi BM25 (k1=1.2, b=0.75), French Snowball stemming, accent folding, stopwords"
+}

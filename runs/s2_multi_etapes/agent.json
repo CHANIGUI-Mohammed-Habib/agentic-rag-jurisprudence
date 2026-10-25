@@ -1,0 +1,474 @@
+{
+ "type": "RESULT",
+ "question": "Un conseiller d'une mission locale a été licencié pour faute grave après avoir publié des messages sur Facebook. Quelle a été la décision de la Cour de cassation dans cette affaire et sur quel raisonnement repose-t-elle ?",
+ "system": "agent",
+ "final": {
+  "status": "verified",
+  "stop_reason": "note vérifiée",
+  "brief": {
+   "main_finding": "Par arrêt du 19 octobre 2022 (pourvoi n° 21-12.370), la Chambre sociale a cassé l'arrêt d'appel qui avait annulé le licenciement pour discrimination. Elle juge que le salarié d'une mission locale est soumis aux principes de laïcité et de neutralité du service public et donc à une obligation de réserve. La cour d'appel n'avait pas recherché si les propos Facebook pouvaient caractériser un manquement à cette obligation.",
+   "answer_status": "answered",
+   "claims": [
+    {
+     "statement": "Les faits : le conseiller a été licencié pour faute grave en raison de publications sur son compte Facebook public.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p001",
+       "quote": "Par lettre du 15 décembre 2015, la mission locale a licencié le salarié pour faute grave"
+      }
+     ]
+    },
+    {
+     "statement": "La cour d'appel avait jugé le licenciement discriminatoire et l'avait annulé. Elle avait retenu que le salarié restait libre de s'exprimer et de critiquer l'État en dehors de son travail.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p010",
+       "quote": "Pour dire que la mission locale a discriminé le salarié en raison de l'expression de ses opinions politiques et de ses convictions religieuses en procédant à son licenciement et annuler en conséquence le licenciement"
+      }
+     ]
+    },
+    {
+     "statement": "Règle posée par la Cour : les missions locales associatives sont des personnes de droit privé gérant un service public. Leur salarié est donc soumis à la laïcité, à la neutralité et à une obligation de réserve en dehors de ses fonctions.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p009",
+       "quote": "est soumis aux principes de laïcité et de neutralité du service public et dès lors à une obligation de réserve en dehors de l'exercice de ses fonctions"
+      }
+     ]
+    },
+    {
+     "statement": "La même règle vaut pour le salarié de droit privé mis à disposition d'une collectivité territoriale.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p010",
+       "quote": "le salarié de droit privé mis à disposition d'une collectivité publique territoriale est soumis aux principes de laïcité et de neutralité du service public"
+      }
+     ]
+    },
+    {
+     "statement": "Motif de la cassation : manque de base légale. La cour d'appel n'avait pas recherché si le compte Facebook permettait d'identifier le salarié comme conseiller affecté à la commune, notamment par les jeunes qu'il suivait. Elle n'avait pas non plus recherché si, vu la virulence et la publicité des propos, ceux-ci caractérisaient un manquement à l'obligation de réserve justifiant le licenciement au titre de l'article L. 1133-1.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p012",
+       "quote": "n'a pas donné de base légale à sa décision"
+      },
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p012",
+       "quote": "au regard de la virulence des propos litigieux ainsi que de la publicité qui leur était donnée"
+      }
+     ]
+    },
+    {
+     "statement": "Dispositif : cassation et annulation en toutes dispositions de l'arrêt de la cour d'appel d'Aix-en-Provence du 18 décembre 2020. Renvoi devant la cour d'appel de Nîmes.",
+     "citations": [
+      {
+       "passage_id": "634f93f8b5afe5adfff28804-p013",
+       "quote": "les renvoie devant la cour d'appel de Nîmes"
+      }
+     ]
+    }
+   ],
+   "qualifications": [
+    "La Cour ne tranche pas elle-même la qualification de faute grave. Elle casse pour défaut de base légale et renvoie l'examen à la cour de renvoi.",
+    "Je n'ai pas vérifié le sort de l'affaire après le renvoi."
+   ],
+   "evidence_gaps": [
+    "Le corpus consulté ne donne pas la décision de la cour d'appel de renvoi (Nîmes)."
+   ]
+  },
+  "citations": [
+   {
+    "claim_index": 0,
+    "passage_id": "634f93f8b5afe5adfff28804-p001",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "expose",
+    "quote": "Par lettre du 15 décembre 2015, la mission locale a licencié le salarié pour faute grave",
+    "start": 2818,
+    "end": 2906,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "634f93f8b5afe5adfff28804-p010",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "Pour dire que la mission locale a discriminé le salarié en raison de l'expression de ses opinions politiques et de ses convictions religieuses en procédant à son licenciement et annuler en conséquence le licenciement",
+    "start": 12838,
+    "end": 13054,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 2,
+    "passage_id": "634f93f8b5afe5adfff28804-p009",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "est soumis aux principes de laïcité et de neutralité du service public et dès lors à une obligation de réserve en dehors de l'exercice de ses fonctions",
+    "start": 11130,
+    "end": 11281,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 3,
+    "passage_id": "634f93f8b5afe5adfff28804-p010",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "le salarié de droit privé mis à disposition d'une collectivité publique territoriale est soumis aux principes de laïcité et de neutralité du service public",
+    "start": 12593,
+    "end": 12748,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 4,
+    "passage_id": "634f93f8b5afe5adfff28804-p012",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "n'a pas donné de base légale à sa décision",
+    "start": 16317,
+    "end": 16359,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 4,
+    "passage_id": "634f93f8b5afe5adfff28804-p012",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "au regard de la virulence des propos litigieux ainsi que de la publicité qui leur était donnée",
+    "start": 15769,
+    "end": 15863,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   },
+   {
+    "claim_index": 5,
+    "passage_id": "634f93f8b5afe5adfff28804-p013",
+    "case_id": "634f93f8b5afe5adfff28804",
+    "number": "21-12.370",
+    "date": "2022-10-19",
+    "solution": "Cassation",
+    "zone": "dispositif",
+    "quote": "les renvoie devant la cour d'appel de Nîmes",
+    "start": 16679,
+    "end": 16722,
+    "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+   }
+  ],
+  "verification": {
+   "passed": true,
+   "mechanical": {
+    "ok": true,
+    "issues": [],
+    "resolved": [
+     {
+      "claim_index": 0,
+      "passage_id": "634f93f8b5afe5adfff28804-p001",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "expose",
+      "quote": "Par lettre du 15 décembre 2015, la mission locale a licencié le salarié pour faute grave",
+      "start": 2818,
+      "end": 2906,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "634f93f8b5afe5adfff28804-p010",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "Pour dire que la mission locale a discriminé le salarié en raison de l'expression de ses opinions politiques et de ses convictions religieuses en procédant à son licenciement et annuler en conséquence le licenciement",
+      "start": 12838,
+      "end": 13054,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 2,
+      "passage_id": "634f93f8b5afe5adfff28804-p009",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "est soumis aux principes de laïcité et de neutralité du service public et dès lors à une obligation de réserve en dehors de l'exercice de ses fonctions",
+      "start": 11130,
+      "end": 11281,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 3,
+      "passage_id": "634f93f8b5afe5adfff28804-p010",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "le salarié de droit privé mis à disposition d'une collectivité publique territoriale est soumis aux principes de laïcité et de neutralité du service public",
+      "start": 12593,
+      "end": 12748,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 4,
+      "passage_id": "634f93f8b5afe5adfff28804-p012",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "n'a pas donné de base légale à sa décision",
+      "start": 16317,
+      "end": 16359,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 4,
+      "passage_id": "634f93f8b5afe5adfff28804-p012",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "au regard de la virulence des propos litigieux ainsi que de la publicité qui leur était donnée",
+      "start": 15769,
+      "end": 15863,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     },
+     {
+      "claim_index": 5,
+      "passage_id": "634f93f8b5afe5adfff28804-p013",
+      "case_id": "634f93f8b5afe5adfff28804",
+      "number": "21-12.370",
+      "date": "2022-10-19",
+      "solution": "Cassation",
+      "zone": "dispositif",
+      "quote": "les renvoie devant la cour d'appel de Nîmes",
+      "start": 16679,
+      "end": 16722,
+      "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+     }
+    ]
+   },
+   "support": {
+    "claims": [
+     {
+      "index": 0,
+      "verdict": "supported",
+      "reason": "Le passage 3 (zone faits) indique le licenciement pour faute grave par lettre du 15 décembre 2015 pour des publications sur un compte Facebook accessible au public."
+     },
+     {
+      "index": 1,
+      "verdict": "supported",
+      "reason": "Le § 17 rapporte que l'arrêt a dit que la mission locale avait discriminé le salarié, annulé le licenciement, et retenu que le salarié conserve sa liberté d'expression et peut critiquer l'État hors travail."
+     },
+     {
+      "index": 2,
+      "verdict": "supported",
+      "reason": "Les §§ 11-12 posent que les missions locales associatives sont des personnes de droit privé gérant un service public et que leur salarié est soumis à la laïcité, à la neutralité et à l'obligation de réserve hors fonctions."
+     },
+     {
+      "index": 3,
+      "verdict": "supported",
+      "reason": "Le § 16 énonce la même soumission pour le salarié de droit privé mis à disposition d'une collectivité publique territoriale."
+     },
+     {
+      "index": 4,
+      "verdict": "supported",
+      "reason": "Le § 20 retient le défaut de base légale pour absence de recherche sur l'identification du salarié comme conseiller affecté à la commune, notamment par les jeunes, et sur la virulence et la publicité des propos au regard de l'obligation de réserve et de l'article L. 1133-1."
+     },
+     {
+      "index": 5,
+      "verdict": "supported",
+      "reason": "Le dispositif casse en toutes dispositions l'arrêt rendu le 18 décembre 2020 par la cour d'appel d'Aix-en-Provence et renvoie devant la cour d'appel de Nîmes."
+     }
+    ],
+    "main_finding_supported": true,
+    "unsourced_content": [],
+    "feedback": ""
+   },
+   "issues": [],
+   "supported_claims": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ "metrics": {
+  "llm_calls": 4,
+  "input_tokens": 27297,
+  "output_tokens": 2418,
+  "llm_latency_s": 18.26,
+  "cost_usd": 0.0788,
+  "calls_by_role": {
+   "agent": 3,
+   "verifier": 1
+  },
+  "tool_calls": 2,
+  "tools_used": [
+   "search_cases",
+   "read_case"
+  ],
+  "drafts": 1,
+  "cases_read": [
+   "634f93f8b5afe5adfff28804"
+  ],
+  "latency_s": 18.27,
+  "model": "claude-sonnet-5-5"
+ },
+ "trace": [
+  {
+   "type": "DECISION",
+   "label": "Nouvelle question reçue : l'agent planifie.",
+   "detail": {},
+   "ts": 1792948381.3927314,
+   "step": 1,
+   "elapsed_s": 0.0
+  },
+  {
+   "type": "DECISION",
+   "label": "Rechercher — Trouver l'arrêt sur conseiller mission locale licencié pour messages Facebook",
+   "detail": {
+    "tool": "search_cases"
+   },
+   "ts": 1792948383.5586996,
+   "step": 2,
+   "elapsed_s": 2.17
+  },
+  {
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"conseiller mission locale licenciement faute grave messages Facebook\", \"k\": 5, \"zone\": \"motivations\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "conseiller mission locale licenciement faute grave messages Facebook",
+     "k": 5,
+     "zone": "motivations"
+    }
+   },
+   "ts": 1792948383.5593588,
+   "step": 3,
+   "elapsed_s": 2.17
+  },
+  {
+   "type": "OBSERVATION",
+   "label": "5 passages dans 4 décisions (20-19.711, 21-12.370, 22-11.016, 22-20.970) ; zones : 5 motivations. Meilleur score 12.68.",
+   "detail": {
+    "tool": "search_cases",
+    "latency_ms": 1,
+    "passage_ids": [
+     "634f93f8b5afe5adfff28804-p010",
+     "62bbec8c4c169278c0aa9179-p003",
+     "634f93f8b5afe5adfff28804-p012",
+     "65f1500928057200093c3e91-p017",
+     "65e81550a743ca0008c68c1d-p006"
+    ],
+    "case": null
+   },
+   "ts": 1792948383.5605836,
+   "step": 4,
+   "elapsed_s": 2.17
+  },
+  {
+   "type": "DECISION",
+   "label": "Lire la décision — Vérifier le dispositif et le raisonnement complet",
+   "detail": {
+    "tool": "read_case"
+   },
+   "ts": 1792948385.0189197,
+   "step": 5,
+   "elapsed_s": 3.63
+  },
+  {
+   "type": "TOOL",
+   "label": "read_case({\"case_id\": \"634f93f8b5afe5adfff28804\"})",
+   "detail": {
+    "tool": "read_case",
+    "args": {
+     "case_id": "634f93f8b5afe5adfff28804"
+    }
+   },
+   "ts": 1792948385.0194483,
+   "step": 6,
+   "elapsed_s": 3.63
+  },
+  {
+   "type": "OBSERVATION",
+   "label": "Décision 21-12.370 du 2022-10-19 (Cassation) : 14 passages, dont 7 de motivation.",
+   "detail": {
+    "tool": "read_case",
+    "latency_ms": 0,
+    "passage_ids": null,
+    "case": {
+     "case_id": "634f93f8b5afe5adfff28804",
+     "number": "21-12.370",
+     "date": "2022-10-19",
+     "solution": "Cassation",
+     "themes": [
+      "contrat de travail, execution",
+      "employeur",
+      "pouvoir de direction",
+      "etendue",
+      "restriction aux libertés fondamentales",
+      "restriction à la liberté religieuse"
+     ],
+     "url": "https://www.courdecassation.fr/decision/634f93f8b5afe5adfff28804"
+    }
+   },
+   "ts": 1792948385.0194786,
+   "step": 7,
+   "elapsed_s": 3.63
+  },
+  {
+   "type": "DECISION",
+   "label": "Soumettre la note au vérificateur — Arrêt identifié et lu intégralement",
+   "detail": {
+    "tool": "submit_brief"
+   },
+   "ts": 1792948394.2250848,
+   "step": 8,
+   "elapsed_s": 12.83
+  },
+  {
+   "type": "CHECK",
+   "label": "Preuves suffisantes : oui — 6 affirmations, 7/7 citations vérifiées mot pour mot, 6 affirmations étayées (note 1/3).",
+   "detail": {
+    "passed": true,
+    "issues": []
+   },
+   "ts": 1792948399.6619012,
+   "step": 9,
+   "elapsed_s": 18.27
+  },
+  {
+   "type": "FINAL",
+   "label": "Note verified — 7 citations, 1 décisions.",
+   "detail": {},
+   "ts": 1792948399.6632335,
+   "step": 10,
+   "elapsed_s": 18.27
+  }
+ ]
+}

@@ -1,0 +1,431 @@
+{
+ "type": "RESULT",
+ "question": "Un employeur peut-il licencier un salarié pour avoir utilisé un outil d'intelligence artificielle générative comme ChatGPT sans autorisation ?",
+ "system": "agent",
+ "final": {
+  "status": "gap_limit",
+  "stop_reason": "limite de vérification atteinte",
+  "brief": {
+   "main_finding": "Le corpus ne permet pas d'établir une réponse vérifiée à cette question. Seules les affirmations ci-dessous ont été vérifiées.",
+   "answer_status": "insufficient_evidence",
+   "claims": [
+    {
+     "statement": "Règle voisine : l'employeur ne peut pas, sans violation de la vie privée, utiliser le contenu de messages personnels émis par le salarié via un outil informatique professionnel pour le sanctionner (Soc., pourvoi n° 23-11.860, 25 septembre 2024). Cette règle ne vise pas l'IA.",
+     "citations": [
+      {
+       "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+       "quote": "L'employeur ne peut dès lors, sans violation de cette liberté fondamentale, utiliser le contenu des messages personnels émis par le salarié"
+      }
+     ]
+    },
+    {
+     "statement": "Dans le pourvoi n° 22-11.016 (6 mars 2024), la Cour de cassation juge que la cour d'appel a exactement déduit que l'employeur ne pouvait pas se fonder, pour licencier, sur le contenu de messages relevant de la vie personnelle. Dans ce passage, la cour d'appel avait retenu qu'un salarié pouvait utiliser sa messagerie professionnelle pour des messages privés dès lors qu'il n'en abusait pas, et que neuf messages en onze mois n'étaient pas excessifs. Elle avait aussi relevé que le règlement intérieur interdisait d'utiliser sans autorisation préalable les équipements, y compris informatiques. Ce passage ne concerne pas l'IA.",
+     "citations": [
+      {
+       "passage_id": "65e81550a743ca0008c68c1d-p006",
+       "quote": "un salarié pouvait toutefois utiliser sa messagerie professionnelle pour envoyer des messages privés dès lors qu'il n'en abusait pas"
+      },
+      {
+       "passage_id": "65e81550a743ca0008c68c1d-p006",
+       "quote": "Elle en a exactement déduit que l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux"
+      }
+     ]
+    }
+   ],
+   "qualifications": [
+    "Trois recherches ont été faites, avec des termes variés. Elles n'ont pas fait remonter de décision sur l'IA, mais cela n'établit pas qu'il n'en existe aucune dans le corpus.",
+    "Les deux décisions citées portent sur des messages personnels, pas sur une IA. Elles ne permettent pas de conclure sur la question posée."
+   ],
+   "evidence_gaps": [
+    "Aucun passage reçu ne traite de l'usage non autorisé d'une IA générative comme motif de licenciement.",
+    "Aucun passage reçu ne traite de l'effet d'une charte informatique ou d'un règlement intérieur sur l'IA.",
+    "Aucun passage reçu ne traite de la gravité de la faute en cas d'usage d'une IA."
+   ]
+  },
+  "citations": [
+   {
+    "claim_index": 0,
+    "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+    "case_id": "66f3a7dc5c2cfc5a084ac60f",
+    "number": "23-11.860",
+    "date": "2024-09-25",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "L'employeur ne peut dès lors, sans violation de cette liberté fondamentale, utiliser le contenu des messages personnels émis par le salarié",
+    "start": 13947,
+    "end": 14086,
+    "url": "https://www.courdecassation.fr/decision/66f3a7dc5c2cfc5a084ac60f"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "65e81550a743ca0008c68c1d-p006",
+    "case_id": "65e81550a743ca0008c68c1d",
+    "number": "22-11.016",
+    "date": "2024-03-06",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "un salarié pouvait toutefois utiliser sa messagerie professionnelle pour envoyer des messages privés dès lors qu'il n'en abusait pas",
+    "start": 7649,
+    "end": 7781,
+    "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "65e81550a743ca0008c68c1d-p006",
+    "case_id": "65e81550a743ca0008c68c1d",
+    "number": "22-11.016",
+    "date": "2024-03-06",
+    "solution": "Rejet",
+    "zone": "motivations",
+    "quote": "Elle en a exactement déduit que l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux",
+    "start": 7934,
+    "end": 8083,
+    "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+   }
+  ],
+  "verification": {
+   "passed": false,
+   "mechanical": {
+    "ok": true,
+    "issues": [],
+    "resolved": [
+     {
+      "claim_index": 0,
+      "passage_id": "66f3a7dc5c2cfc5a084ac60f-p010",
+      "case_id": "66f3a7dc5c2cfc5a084ac60f",
+      "number": "23-11.860",
+      "date": "2024-09-25",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "L'employeur ne peut dès lors, sans violation de cette liberté fondamentale, utiliser le contenu des messages personnels émis par le salarié",
+      "start": 13947,
+      "end": 14086,
+      "url": "https://www.courdecassation.fr/decision/66f3a7dc5c2cfc5a084ac60f"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "65e81550a743ca0008c68c1d-p006",
+      "case_id": "65e81550a743ca0008c68c1d",
+      "number": "22-11.016",
+      "date": "2024-03-06",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "un salarié pouvait toutefois utiliser sa messagerie professionnelle pour envoyer des messages privés dès lors qu'il n'en abusait pas",
+      "start": 7649,
+      "end": 7781,
+      "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "65e81550a743ca0008c68c1d-p006",
+      "case_id": "65e81550a743ca0008c68c1d",
+      "number": "22-11.016",
+      "date": "2024-03-06",
+      "solution": "Rejet",
+      "zone": "motivations",
+      "quote": "Elle en a exactement déduit que l'employeur ne pouvait, pour procéder au licenciement de la salariée, se fonder sur le contenu des messages litigieux",
+      "start": 7934,
+      "end": 8083,
+      "url": "https://www.courdecassation.fr/decision/65e81550a743ca0008c68c1d"
+     }
+    ]
+   },
+   "support": {
+    "claims": [
+     {
+      "index": 0,
+      "verdict": "supported",
+      "reason": "Le passage 23-11.860 (motivations, §4) établit que l'employeur ne peut, sans violation de la vie privée, utiliser le contenu des messages personnels émis via un outil informatique professionnel pour sanctionner le salarié. La précision que la règle ne vise pas l'IA est cohérente avec le texte, qui n'en parle pas. Le passage ne contient pas la date exacte, mais elle figure dans ses métadonnées (2024-09-25)."
+     },
+     {
+      "index": 1,
+      "verdict": "supported",
+      "reason": "Le passage 22-11.016 (motivations, §8-9) reprend fidèlement ce que la cour d'appel avait retenu (messagerie professionnelle utilisable pour des messages privés sans abus, neuf messages en onze mois non excessifs, règlement intérieur interdisant l'usage sans autorisation préalable des équipements, y compris informatiques). La Cour juge que la cour d'appel en a exactement déduit que l'employeur ne pouvait se fonder sur le contenu de ces messages relevant de la vie personnelle. Le passage ne concerne pas l'IA. La date du 6 mars 2024 figure dans les métadonnées."
+     }
+    ],
+    "main_finding_supported": true,
+    "unsourced_content": [
+     "Les trois recherches effectuées avec des termes variés (qualification) ne sont pas vérifiables à partir des passages fournis, mais relèvent de la méthode et non du fond juridique."
+    ],
+    "feedback": ""
+   },
+   "issues": [
+    "Élément non sourcé : Les trois recherches effectuées avec des termes variés (qualification) ne sont pas vérifiables à partir des passages fournis, mais relèvent de la méthode et non du fond juridique."
+   ],
+   "supported_claims": [
+    0,
+    1
+   ]
+  }
+ },
+ "metrics": {
+  "llm_calls": 8,
+  "input_tokens": 57507,
+  "output_tokens": 5060,
+  "llm_latency_s": 40.11,
+  "cost_usd": 0.1656,
+  "calls_by_role": {
+   "agent": 5,
+   "verifier": 3
+  },
+  "tool_calls": 3,
+  "tools_used": [
+   "search_cases",
+   "search_cases",
+   "search_cases"
+  ],
+  "drafts": 3,
+  "cases_read": [],
+  "latency_s": 40.13,
+  "model": "claude-sonnet-5-5"
+ },
+ "trace": [
+  {
+   "type": "DECISION",
+   "label": "Nouvelle question reçue : l'agent planifie.",
+   "detail": {},
+   "ts": 1792948406.4616377,
+   "step": 1,
+   "elapsed_s": 0.0
+  },
+  {
+   "type": "DECISION",
+   "label": "Rechercher — Chercher jurisprudence sur IA générative et licenciement",
+   "detail": {
+    "tool": "search_cases"
+   },
+   "ts": 1792948408.24321,
+   "step": 2,
+   "elapsed_s": 1.78
+  },
+  {
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"intelligence artificielle générative ChatGPT licenciement salarié outil sans autorisation\", \"k\": 5, \"zone\": \"any\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "intelligence artificielle générative ChatGPT licenciement salarié outil sans autorisation",
+     "k": 5,
+     "zone": "any"
+    }
+   },
+   "ts": 1792948408.2438872,
+   "step": 3,
+   "elapsed_s": 1.78
+  },
+  {
+   "type": "OBSERVATION",
+   "label": "5 passages dans 3 décisions (19-10.534, 23-11.860, 23-15.410) ; zones : 3 motivations, 2 moyens. Meilleur score 9.22.",
+   "detail": {
+    "tool": "search_cases",
+    "latency_ms": 2,
+    "passage_ids": [
+     "66f3a7dc5c2cfc5a084ac60f-p010",
+     "677e29957273c3590cec110b-p009",
+     "677e29957273c3590cec110b-p009",
+     "5fca4b6da144f8570e838b2f-p006",
+     "5fca4b6da144f8570e838b2f-p007"
+    ],
+    "case": null
+   },
+   "ts": 1792948408.2459474,
+   "step": 4,
+   "elapsed_s": 1.78
+  },
+  {
+   "type": "DECISION",
+   "label": "Soumettre la note au vérificateur — Aucune décision sur l'IA générative trouvée",
+   "detail": {
+    "tool": "submit_brief"
+   },
+   "ts": 1792948412.334961,
+   "step": 5,
+   "elapsed_s": 5.87
+  },
+  {
+   "type": "CHECK",
+   "label": "Preuves suffisantes : non — 0 affirmations, 0/0 citations vérifiées mot pour mot, 0 affirmations étayées (note 1/3).",
+   "detail": {
+    "passed": false,
+    "issues": [
+     "Élément non sourcé : Période du corpus : 2020 à mars 2025",
+     "Élément non sourcé : Affirmation d'absence totale de décision sur l'IA dans le corpus, au-delà d'une recherche unique",
+     "Consigne : Nuancer : indiquer que seule une recherche a été faite et qu'elle n'a pas fait remonter de décision pertinente, sans affirmer l'absence de toute décision dans le corpus. Justifier la période 2020-mars 2025 ou la retirer. Idéalement, faire d'autres recherches avec des formulations variées (outil informatique, charte, usage détourné, faute grave)."
+    ]
+   },
+   "ts": 1792948417.1453362,
+   "step": 6,
+   "elapsed_s": 10.68
+  },
+  {
+   "type": "DECISION",
+   "label": "Vérification échouée : retour à l'agent avec les défauts relevés.",
+   "detail": {},
+   "ts": 1792948417.1453443,
+   "step": 7,
+   "elapsed_s": 10.68
+  },
+  {
+   "type": "DECISION",
+   "label": "Rechercher — Reformuler: usage outil informatique contraire charte, faute",
+   "detail": {
+    "tool": "search_cases"
+   },
+   "ts": 1792948419.8729103,
+   "step": 8,
+   "elapsed_s": 13.41
+  },
+  {
+   "type": "DECISION",
+   "label": "Rechercher — Recherche termes algorithme / intelligence artificielle",
+   "detail": {
+    "tool": "search_cases"
+   },
+   "ts": 1792948419.8729136,
+   "step": 9,
+   "elapsed_s": 13.41
+  },
+  {
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"utilisation outil informatique employeur charte informatique interdiction faute grave licenciement\", \"k\": 6, \"zone\": \"motivations\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "utilisation outil informatique employeur charte informatique interdiction faute grave licenciement",
+     "k": 6,
+     "zone": "motivations"
+    }
+   },
+   "ts": 1792948419.8741179,
+   "step": 10,
+   "elapsed_s": 13.41
+  },
+  {
+   "type": "OBSERVATION",
+   "label": "6 passages dans 6 décisions (17-19.523, 20-21.848, 22-11.016, 22-16.805, 22-20.539, 23-11.860) ; zones : 6 motivations. Meilleur score 18.79.",
+   "detail": {
+    "tool": "search_cases",
+    "latency_ms": 5,
+    "passage_ids": [
+     "66f3a7dc5c2cfc5a084ac60f-p010",
+     "5fca262d4504b03b8a33c16e-p015",
+     "64085bca66b1bafb02f11fac-p005",
+     "65e81550a743ca0008c68c1d-p006",
+     "668e2436fcf93851fdd644df-p006",
+     "6628a06cb2cb67000826a36d-p014"
+    ],
+    "case": null
+   },
+   "ts": 1792948419.87879,
+   "step": 11,
+   "elapsed_s": 13.42
+  },
+  {
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"intelligence artificielle algorithme salarié\", \"k\": 5, \"zone\": \"any\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "intelligence artificielle algorithme salarié",
+     "k": 5,
+     "zone": "any"
+    }
+   },
+   "ts": 1792948419.8789532,
+   "step": 12,
+   "elapsed_s": 13.42
+  },
+  {
+   "type": "OBSERVATION",
+   "label": "5 passages dans 4 décisions (19-12.025, 19-15.039, 20-19.957, 22-12.381) ; zones : 3 motivations, 2 moyens. Meilleur score 6.15.",
+   "detail": {
+    "tool": "search_cases",
+    "latency_ms": 2,
+    "passage_ids": [
+     "6054bea170526d97cf3cc644-p006",
+     "6582bbc7747015f3f52007cf-p008",
+     "6582bbc7747015f3f52007cf-p014",
+     "6297021b7c2a1fa9d4442269-p004",
+     "613876faf3c12c05124a3fa4-p003"
+    ],
+    "case": null
+   },
+   "ts": 1792948419.8805277,
+   "step": 13,
+   "elapsed_s": 13.42
+  },
+  {
+   "type": "DECISION",
+   "label": "Soumettre la note au vérificateur — Trois recherches sans décision sur l'IA; note nuancée",
+   "detail": {
+    "tool": "submit_brief"
+   },
+   "ts": 1792948427.1220758,
+   "step": 14,
+   "elapsed_s": 20.66
+  },
+  {
+   "type": "CHECK",
+   "label": "Preuves suffisantes : non — 2 affirmations, 2/2 citations vérifiées mot pour mot, 1 affirmations étayées (note 2/3).",
+   "detail": {
+    "passed": false,
+    "issues": [
+     "Affirmation 2 partially_supported : Le passage confirme l'article 26 du règlement intérieur (interdiction d'usage sans autorisation préalable, y compris informatique) et l'approbation de la déduction de la cour d'appel. Mais il présente cette interdiction comme retenue par la cour d'appel (« Elle a retenu »), non comme une relevé de la Cour de cassation. De plus, la Cour ne s'appuie pas sur le seul fait que les messages relevaient de la vie personnelle : elle souligne aussi l'absence d'abus (neuf messages en onze mois), ce que l'affirmation omet. Le numéro de pourvoi et la date sont cohérents avec les métadonnées fournies.\"",
+     "Élément non sourcé : Le constat principal sur l'absence de résultats des recherches (trois recherches, termes utilisés) ne peut pas être vérifié à partir des passages fournis.",
+     "Élément non sourcé : L'affirmation selon laquelle les deux arrêts cités ne permettent pas de dire si l'usage non autorisé d'une IA peut justifier un licenciement est une appréciation de l'agent, non établie par les passages.",
+     "Consigne : Pour l'affirmation 1, préciser que le règlement intérieur et les constats sont ceux de la cour d'appel, repris par la Cour de cassation, et mentionner le critère de l'absence d'abus (neuf messages en onze mois) en plus du caractère personnel des messages."
+    ]
+   },
+   "ts": 1792948433.1557505,
+   "step": 15,
+   "elapsed_s": 26.69
+  },
+  {
+   "type": "DECISION",
+   "label": "Vérification échouée : retour à l'agent avec les défauts relevés.",
+   "detail": {},
+   "ts": 1792948433.1557648,
+   "step": 16,
+   "elapsed_s": 26.69
+  },
+  {
+   "type": "DECISION",
+   "label": "Soumettre la note au vérificateur — Note simplifiée, claims prudents",
+   "detail": {
+    "tool": "submit_brief"
+   },
+   "ts": 1792948441.361099,
+   "step": 17,
+   "elapsed_s": 34.9
+  },
+  {
+   "type": "CHECK",
+   "label": "Preuves suffisantes : non — 2 affirmations, 3/3 citations vérifiées mot pour mot, 2 affirmations étayées (note 3/3).",
+   "detail": {
+    "passed": false,
+    "issues": [
+     "Élément non sourcé : Les trois recherches effectuées avec des termes variés (qualification) ne sont pas vérifiables à partir des passages fournis, mais relèvent de la méthode et non du fond juridique."
+    ]
+   },
+   "ts": 1792948446.591766,
+   "step": 18,
+   "elapsed_s": 40.13
+  },
+  {
+   "type": "DECISION",
+   "label": "Vérification échouée et limite atteinte : arrêt avec lacune explicite.",
+   "detail": {},
+   "ts": 1792948446.5917783,
+   "step": 19,
+   "elapsed_s": 40.13
+  },
+  {
+   "type": "FINAL",
+   "label": "Lacune explicite : 2 affirmation(s) vérifiée(s) conservée(s), 0 retirée(s).",
+   "detail": {},
+   "ts": 1792948446.5930362,
+   "step": 20,
+   "elapsed_s": 40.13
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "type": "RESULT",
+ "question": "Le juge peut-il écarter le barème d'indemnisation du licenciement sans cause réelle et sérieuse (article L. 1235-3 du code du travail) en se fondant sur la Charte sociale européenne ou sur la convention n° 158 de l'OIT ?",
+ "system": "baseline",
+ "final": {
+  "status": "unverified",
+  "stop_reason": "réponse unique",
+  "brief": {
+   "main_finding": "Les passages indiquent, dans l'arrêt 21-14.490 du 11 mai 2022 (cassation), que la Cour de cassation juge l'article L. 1235-3 compatible avec l'article 10 de la convention n° 158 de l'OIT, ce qui a conduit à censurer une cour d'appel ayant écarté le barème en raison de la situation concrète de la salariée. Sur la Charte sociale européenne, seul un moyen est reproduit, sans la réponse de la Cour : le corpus ne permet pas de conclure sur ce point.",
+   "answer_status": "partial",
+   "claims": [
+    {
+     "statement": "La Cour de cassation juge les dispositions de l'article L. 1235-3 compatibles avec l'article 10 de la convention n° 158 de l'OIT.",
+     "citations": [
+      {
+       "passage_id": "627b537f4d359c057dd01cf4-p012",
+       "quote": "Il en résulte que les dispositions de l'article L. 1235-3 du code du travail sont compatibles avec les stipulations de l'article 10 de la Convention précitée."
+      }
+     ]
+    },
+    {
+     "statement": "La Cour a relevé que la cour d'appel avait dépassé le montant maximal du barème en se fondant sur la situation concrète de la salariée et sur l'article 10 de la convention n° 158. L'arrêt est cassé (solution : Cassation), ce qui suggère que ce raisonnement ne peut justifier d'écarter le barème.",
+     "citations": [
+      {
+       "passage_id": "627b537f4d359c057dd01cf4-p012",
+       "quote": "Pour condamner l'employeur au paiement d'une somme supérieure au montant maximal prévu par l'article L. 1235-3 du code du travail"
+      }
+     ]
+    }
+   ],
+   "qualifications": [
+    "Les passages de zone « moyens » (21-15.247 sur l'article 24 de la Charte, 21-14.490 premier moyen, 19-11.986) exposent des arguments de parties et non la position de la Cour.",
+    "Le passage 21-15.247-p004 mentionne une motivation d'appel selon laquelle l'article 24 de la Charte n'est pas d'effet direct, mais il est cité dans un moyen ; la Cour n'a pas été vue se prononcer dans les passages (le pourvoi a été rejeté).",
+    "Le raisonnement de la Cour sur la cassation dans 21-14.490 n'est que partiellement reproduit : seuls les paragraphes 21 à 23 figurent."
+   ],
+   "evidence_gaps": [
+    "Aucun passage de motivation de la Cour ne statue sur l'effet direct de l'article 24 de la Charte sociale européenne.",
+    "Le dispositif et le raisonnement complet de la cassation dans 21-14.490 ne sont pas fournis.",
+    "Les avis de l'Assemblée plénière du 17 juillet 2019 ne sont évoqués que dans un moyen."
+   ]
+  },
+  "citations": [
+   {
+    "claim_index": 0,
+    "passage_id": "627b537f4d359c057dd01cf4-p012",
+    "case_id": "627b537f4d359c057dd01cf4",
+    "number": "21-14.490",
+    "date": "2022-05-11",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "Il en résulte que les dispositions de l'article L. 1235-3 du code du travail sont compatibles avec les stipulations de l'article 10 de la Convention précitée.",
+    "start": 15579,
+    "end": 15737,
+    "url": "https://www.courdecassation.fr/decision/627b537f4d359c057dd01cf4"
+   },
+   {
+    "claim_index": 1,
+    "passage_id": "627b537f4d359c057dd01cf4-p012",
+    "case_id": "627b537f4d359c057dd01cf4",
+    "number": "21-14.490",
+    "date": "2022-05-11",
+    "solution": "Cassation",
+    "zone": "motivations",
+    "quote": "Pour condamner l'employeur au paiement d'une somme supérieure au montant maximal prévu par l'article L. 1235-3 du code du travail",
+    "start": 15745,
+    "end": 15874,
+    "url": "https://www.courdecassation.fr/decision/627b537f4d359c057dd01cf4"
+   }
+  ],
+  "verification": {
+   "mechanical": {
+    "ok": true,
+    "issues": [],
+    "resolved": [
+     {
+      "claim_index": 0,
+      "passage_id": "627b537f4d359c057dd01cf4-p012",
+      "case_id": "627b537f4d359c057dd01cf4",
+      "number": "21-14.490",
+      "date": "2022-05-11",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "Il en résulte que les dispositions de l'article L. 1235-3 du code du travail sont compatibles avec les stipulations de l'article 10 de la Convention précitée.",
+      "start": 15579,
+      "end": 15737,
+      "url": "https://www.courdecassation.fr/decision/627b537f4d359c057dd01cf4"
+     },
+     {
+      "claim_index": 1,
+      "passage_id": "627b537f4d359c057dd01cf4-p012",
+      "case_id": "627b537f4d359c057dd01cf4",
+      "number": "21-14.490",
+      "date": "2022-05-11",
+      "solution": "Cassation",
+      "zone": "motivations",
+      "quote": "Pour condamner l'employeur au paiement d'une somme supérieure au montant maximal prévu par l'article L. 1235-3 du code du travail",
+      "start": 15745,
+      "end": 15874,
+      "url": "https://www.courdecassation.fr/decision/627b537f4d359c057dd01cf4"
+     }
+    ]
+   }
+  }
+ },
+ "trace": [
+  {
+   "step": 1,
+   "type": "TOOL",
+   "label": "search_cases({\"query\": \"Le juge peut-il écarter le barème d'indemnisation du licenciement sans cause réelle et sérieuse (article L. 1235-3 du code du travail) en se fondant sur la Charte sociale européenne ou sur la convention n° 158 de l'OIT ?\", \"k\": 5, \"zone\": \"any\"})",
+   "detail": {
+    "tool": "search_cases",
+    "args": {
+     "query": "Le juge peut-il écarter le barème d'indemnisation du licenciement sans cause réelle et sérieuse (article L. 1235-3 du code du travail) en se fondant sur la Charte sociale européenne ou sur la convention n° 158 de l'OIT ?",
+     "k": 5,
+     "zone": "any"
+    }
+   },
+   "elapsed_s": 0.0
+  },
+  {
+   "step": 2,
+   "type": "OBSERVATION",
+   "label": "5 passages dans 3 décisions (19-11.986, 21-14.490, 21-15.247) ; zones : 4 moyens, 1 motivations. Meilleur score 39.84.",
+   "detail": {},
+   "elapsed_s": 0.0
+  },
+  {
+   "step": 3,
+   "type": "CHECK",
+   "label": "Contrôle (non bouclé) : 2 citations vérifiées mot pour mot, 0 défaut(s).",
+   "detail": {
+    "issues": []
+   },
+   "elapsed_s": 7.91
+  },
+  {
+   "step": 4,
+   "type": "FINAL",
+   "label": "Réponse (partial) — 2 citations.",
+   "detail": {},
+   "elapsed_s": 7.91
+  }
+ ],
+ "metrics": {
+  "llm_calls": 1,
+  "input_tokens": 4933,
+  "output_tokens": 975,
+  "llm_latency_s": 7.91,
+  "cost_usd": 0.0196,
+  "calls_by_role": {
+   "baseline": 1
+  },
+  "tool_calls": 1,
+  "tools_used": [
+   "search_cases"
+  ],
+  "drafts": 1,
+  "cases_read": [],
+  "latency_s": 7.91,
+  "model": "claude-sonnet-5-5"
+ }
+}

@@ -1,0 +1,29 @@
+[project]
+name = "tp3-agentic-rag"
+version = "0.1.0"
+description = "TP3 - Agentic RAG sur la jurisprudence (Chambre sociale, licenciement)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=2.3.0",
+    "huggingface-hub>=2.3.0",
+    "langgraph>=1.2.17",
+    "numpy>=2.5.4",
+    "pyarrow>=26.0.0",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "snowballstemmer>=3.1.1",
+    "streamlit>=1.66.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "jurisrag"
